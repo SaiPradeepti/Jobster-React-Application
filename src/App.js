@@ -1,8 +1,22 @@
 import React from 'react'
+import Landing from './pages/Landing'
+import styled from 'styled-components'
+
+const Button = styled.button`
+background: red;
+color:white;
+font-size: 2rem;
+`;
+
+const SecondButton = styled.button`
+background: pink;
+`
 
 const App = () => {
   return (
-    <div>Jobster App</div>
+    <div>
+      <Landing />
+    </div>
   )
 }
 
